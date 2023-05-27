@@ -1,5 +1,12 @@
 # OpenEmbedding-LangChain-Chroma : Ask-Question-From-Own-Content
 
+The aim of this repository is to ASK QUESTIONS FROM YOUR OWN DATASET.
+OpenAI Embedding  : To Vectorize out text data, i.e. to create embedding using GPT Embedding
+VectorDB (Chroma) : It is used to store the embedding according to the indexes.
+LangChain         : To ask questions about the data
+
+A demonstration has been provided not only for text data but also convert from text to audio files and the use OpenAI Embedding, VectorDB and LangChain to it.
+
 # Chroma and LangChain Demo
 This repository contains code and resources for demonstrating the power of Chroma and LangChain for asking questions about your own data. 
 The demo showcases how to pull data from the English Wikipedia using their API. The project also demonstrates how to vectorize data in chunks and get embeddings using OpenAI embeddings model.
