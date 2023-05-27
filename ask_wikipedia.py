@@ -39,5 +39,5 @@ class Genie:
 
 
 if __name__ == "__main__":
-    genie = Genie("example.txt")
+    genie = Genie("/content/2023-05-27 16:13:31.473421.txt")
     print(genie.ask("Can you tell me the formula for Linear Regression?"))
